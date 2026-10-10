@@ -1,0 +1,82 @@
+/* Live SVG poses are driven by EmotionBall; this layer handles gestures and bounded feedback. */
+.buddy-motion {
+  isolation: isolate;
+  touch-action: none;
+  --buddy-gesture: translate(0px, 0px) rotate(0deg) scale(1, 1);
+}
+
+button.main-ball {
+  display: block;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-app-region: no-drag;
+}
+
+button.main-ball:active {
+  cursor: pointer;
+}
+
+.pet-ball-button {
+  cursor: grab;
+}
+
+.pet-ball-button:active {
+  cursor: grabbing;
+}
+
+.pet-ball-button:focus-visible,
+button.main-ball:focus-visible {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.pet-ball-button::after,
+button.main-ball::after {
+  content: "";
+  position: absolute;
+  bottom: 1px;
+  left: calc(50% - 12px);
+  width: 24px;
+  height: 2px;
+  border-radius: 2px;
+  background: #24645c;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.pet-ball-button:focus-visible::after,
+button.main-ball:focus-visible::after {
+  opacity: 1;
+}
+
+.buddy-motion > .buddy-character {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  transform: var(--buddy-gesture);
+  transform-origin: 50% 55%;
+}
+
+.buddy-motion > .buddy-fx {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.pet-ball.buddy-motion {
+  position: relative;
+}
+
+.buddy-motion[data-motion-mode="static"] > .buddy-character,
+.buddy-motion[data-motion-mode="gentle"] > .buddy-character {
+  transform: none;
+}

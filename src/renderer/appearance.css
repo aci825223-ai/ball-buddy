@@ -1,0 +1,96 @@
+:root {
+  --app-font: "Microsoft YaHei UI", "Microsoft YaHei", "Segoe UI", sans-serif;
+  --text-scale: 1;
+  --paper: #ffffff;
+  --canvas: #f5f5f7;
+  --secondary: #efeff2;
+  --sidebar: #eeeef1;
+  --scene: #f7f6f3;
+  --ink: #1d1d1f;
+  --muted: #626267;
+  --scene-muted: #626267;
+  --primary: #0066cc;
+  --green: var(--primary);
+  --green-hover: #005bb7;
+  --on-primary: #ffffff;
+  --line: #e4e4e8;
+  --field-line: #d2d2d8;
+  --quiet-hover: #f1f1f4;
+  --selected: #e4effc;
+  --error: #b53c43;
+  --success: #31714b;
+  --disabled: #96969f;
+  --scrollbar-thumb: #c1c1c8;
+  --selection-line: #b3b3bd;
+  --illustration-line: #9b9ba4;
+  --motion-track: var(--secondary);
+  --range-track: #c7c7cf;
+  --switch-track: #b9b9c1;
+  --toast-bg: #262629;
+  --toast-ink: #ffffff;
+  --error-toast-bg: #b53c43;
+  --error-toast-ink: #ffffff;
+  --pet-paper: var(--paper);
+  --pet-primary: var(--primary);
+  --pet-shadow: inset 0 0 0 1px #e4e4e880, 0 4px 12px #1d1d1f1c;
+  font-family: var(--app-font);
+  color: var(--ink);
+}
+:root[data-theme="dark"] {
+  --canvas: #171719;
+  --paper: #202023;
+  --secondary: #2b2b30;
+  --sidebar: #1c1c1f;
+  --scene: #252526;
+  --ink: #f3f3f5;
+  --muted: #a8a8af;
+  --scene-muted: #a8a8af;
+  --primary: #78b1ff;
+  --green-hover: #91bfff;
+  --on-primary: #122038;
+  --line: #37373c;
+  --field-line: #515158;
+  --quiet-hover: #2c2c31;
+  --selected: #283b55;
+  --error: #ffabb2;
+  --success: #8fc9a4;
+  --disabled: #71717b;
+  --scrollbar-thumb: #515158;
+  --selection-line: #72727c;
+  --illustration-line: #7c7c87;
+  --range-track: #515158;
+  --switch-track: #62626b;
+  --toast-bg: #e7e7ec;
+  --toast-ink: #202023;
+  --error-toast-bg: #ffabb2;
+  --error-toast-ink: #3e1720;
+  --pet-shadow: inset 0 0 0 1px #51515866, 0 4px 12px #0000004d;
+}
+button, input, select, textarea { font-family: var(--app-font); }
+button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, summary:focus-visible { outline-color: var(--primary); }
+::selection { background: var(--selected); color: var(--ink); }
+input, textarea { caret-color: var(--primary); }
+input::placeholder, textarea::placeholder { color: var(--muted); }
+::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); }
+.brand-mark path { stroke: var(--on-primary); }
+.timer { font-family: var(--app-font); }
+.quiet-button:hover { background: var(--quiet-hover); }
+.primary-button { color: var(--on-primary); }
+.primary-button:disabled { background: var(--disabled); }
+.select-indicator, .task-complete:hover { border-color: var(--selection-line); }
+.empty-state > svg { stroke: var(--illustration-line); }
+.completed-section li > span { text-decoration-color: var(--selection-line); }
+.focus-status::before { background: var(--illustration-line); }
+.duration-control input:disabled { background: var(--quiet-hover); }
+.inline-error { color: var(--error); }
+.companion-settings { border-color: var(--line); }
+.motion-control { background: var(--motion-track); }
+.size-control input[type="range"]::-webkit-slider-runnable-track { background: var(--range-track); }
+.toast { background: var(--toast-bg); color: var(--toast-ink); }
+.toast[data-error="true"] { background: var(--error-toast-bg); color: var(--error-toast-ink); }
+.pet-controls button:focus-visible { outline-color: var(--green); }
+.pet-drag { color: var(--muted); }
+.pet-timer { color: var(--green); border-color: var(--line); }
+.pet-controls button:hover { background: var(--quiet-hover); }
+.ball-unavailable { color: var(--green); }
+.pet-ball-button::after, button.main-ball::after { background: var(--green); }

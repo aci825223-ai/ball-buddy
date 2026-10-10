@@ -1,0 +1,46 @@
+Ball Buddy licensing / 小球同桌授权范围
+=========================================
+
+The MIT License below applies to the original Ball Buddy application code,
+study server, tests, scripts and documentation contributed to this repository.
+It does not relicense third-party materials or rights in the EmotionBall
+character designs, including adapted renderings, application icons, screenshots
+and animations showing those designs.
+
+The files in vendor/emotion-ball/ remain governed by their original Emotion Ball
+Community License and NOTICE.md. Their author is sam70361. Non-commercial use
+and sharing require attribution; commercial use of the ball-character visual
+designs is prohibited. Engine and expression-data commercial licensing must be
+obtained separately from the upstream author. See NOTICE.md and
+vendor/emotion-ball/LICENSE for the complete terms.
+
+This repository publishes the complete application source under mixed licenses.
+The MIT terms do not grant commercial rights to the bundled EmotionBall character.
+Other dependencies retain their own licenses; see docs/THIRD_PARTY_NOTICES.md.
+
+以下MIT许可仅适用于小球同桌原创应用代码、共学服务、测试、工具与文档，
+不改变第三方授权，也不授予EmotionBall角色形象及其改编呈现、应用图标、
+截图和动画的商业使用权。vendor/emotion-ball/保留sam70361的原社区许可，
+角色视觉禁止商业用途。完整条款见上述原始许可与声明。
+
+MIT License
+
+Copyright (c) 2026 aci825223-ai and Ball Buddy contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

@@ -1,0 +1,33 @@
+{
+  "name": "ball-buddy",
+  "version": "0.3.0",
+  "description": "小球同桌 — Windows 本地专注伙伴（个人学习项目）",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": { "type": "git", "url": "https://github.com/aci825223-ai/ball-buddy.git" },
+  "homepage": "https://github.com/aci825223-ai/ball-buddy#readme",
+  "bugs": { "url": "https://github.com/aci825223-ai/ball-buddy/issues" },
+  "engines": { "node": ">=22.12.0" },
+  "main": "src/main/main.cjs",
+  "scripts": {
+    "postinstall": "node scripts/install-electron.cjs",
+    "start": "electron .",
+    "test": "node --test tests/*.test.cjs",
+    "check": "node scripts/check.cjs",
+    "smoke": "node scripts/smoke.cjs",
+    "motion-smoke": "node scripts/motion-smoke.cjs",
+    "interaction-smoke": "node scripts/interaction-smoke.cjs",
+    "package": "node scripts/package.cjs",
+    "size-smoke": "node scripts/size-smoke.cjs",
+    "hover-smoke": "node scripts/hover-smoke.cjs",
+    "settings-smoke": "node scripts/settings-smoke.cjs",
+    "ai-study-smoke": "node scripts/ai-study-smoke.cjs",
+    "theme-smoke": "node scripts/theme-smoke.cjs",
+    "study-server": "npm --prefix server start",
+    "server-test": "node --test server/tests/*.test.cjs"
+  },
+  "devDependencies": {
+    "electron": "44.7.0",
+    "playwright": "1.64.0"
+  }
+}

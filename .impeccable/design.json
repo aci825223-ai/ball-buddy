@@ -1,0 +1,857 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-10T15:48:45.034Z",
+  "title": "Design System: 小球同桌 · 安静学习空间",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "主要操作蓝",
+        "canonical": "#0066cc",
+        "tonalRamp": [
+          "oklch(15.00% 0.17709 255.83)",
+          "oklch(26.43% 0.17709 255.83)",
+          "oklch(37.86% 0.17709 255.83)",
+          "oklch(49.29% 0.17709 255.83)",
+          "oklch(60.71% 0.17709 255.83)",
+          "oklch(72.14% 0.17709 255.83)",
+          "oklch(83.57% 0.17709 255.83)",
+          "oklch(95.00% 0.17709 255.83)"
+        ]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "操作蓝悬停",
+        "canonical": "#005bb7",
+        "tonalRamp": [
+          "oklch(15.00% 0.16309 255.77)",
+          "oklch(26.43% 0.16309 255.77)",
+          "oklch(37.86% 0.16309 255.77)",
+          "oklch(49.29% 0.16309 255.77)",
+          "oklch(60.71% 0.16309 255.77)",
+          "oklch(72.14% 0.16309 255.77)",
+          "oklch(83.57% 0.16309 255.77)",
+          "oklch(95.00% 0.16309 255.77)"
+        ]
+      },
+      "on-primary": {
+        "role": "neutral",
+        "displayName": "主按钮前景",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "连续内容表面",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "安静画布",
+        "canonical": "#f5f5f7",
+        "tonalRamp": [
+          "oklch(15.00% 0.00265 286.35)",
+          "oklch(26.43% 0.00265 286.35)",
+          "oklch(37.86% 0.00265 286.35)",
+          "oklch(49.29% 0.00265 286.35)",
+          "oklch(60.71% 0.00265 286.35)",
+          "oklch(72.14% 0.00265 286.35)",
+          "oklch(83.57% 0.00265 286.35)",
+          "oklch(95.00% 0.00265 286.35)"
+        ]
+      },
+      "scene": {
+        "role": "neutral",
+        "displayName": "伙伴暖灰表面",
+        "canonical": "#f7f6f3",
+        "tonalRamp": [
+          "oklch(15.00% 0.00412 91.45)",
+          "oklch(26.43% 0.00412 91.45)",
+          "oklch(37.86% 0.00412 91.45)",
+          "oklch(49.29% 0.00412 91.45)",
+          "oklch(60.71% 0.00412 91.45)",
+          "oklch(72.14% 0.00412 91.45)",
+          "oklch(83.57% 0.00412 91.45)",
+          "oklch(95.00% 0.00412 91.45)"
+        ]
+      },
+      "secondary": {
+        "role": "neutral",
+        "displayName": "次级灰表面",
+        "canonical": "#efeff2",
+        "tonalRamp": [
+          "oklch(15.00% 0.00400 286.32)",
+          "oklch(26.43% 0.00400 286.32)",
+          "oklch(37.86% 0.00400 286.32)",
+          "oklch(49.29% 0.00400 286.32)",
+          "oklch(60.71% 0.00400 286.32)",
+          "oklch(72.14% 0.00400 286.32)",
+          "oklch(83.57% 0.00400 286.32)",
+          "oklch(95.00% 0.00400 286.32)"
+        ]
+      },
+      "sidebar": {
+        "role": "neutral",
+        "displayName": "导航灰表面",
+        "canonical": "#eeeef1",
+        "tonalRamp": [
+          "oklch(15.00% 0.00400 286.32)",
+          "oklch(26.43% 0.00400 286.32)",
+          "oklch(37.86% 0.00400 286.32)",
+          "oklch(49.29% 0.00400 286.32)",
+          "oklch(60.71% 0.00400 286.32)",
+          "oklch(72.14% 0.00400 286.32)",
+          "oklch(83.57% 0.00400 286.32)",
+          "oklch(95.00% 0.00400 286.32)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "正文墨色",
+        "canonical": "#1d1d1f",
+        "tonalRamp": [
+          "oklch(15.00% 0.00381 286.10)",
+          "oklch(26.43% 0.00381 286.10)",
+          "oklch(37.86% 0.00381 286.10)",
+          "oklch(49.29% 0.00381 286.10)",
+          "oklch(60.71% 0.00381 286.10)",
+          "oklch(72.14% 0.00381 286.10)",
+          "oklch(83.57% 0.00381 286.10)",
+          "oklch(95.00% 0.00381 286.10)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "辅助灰色",
+        "canonical": "#626267",
+        "tonalRamp": [
+          "oklch(15.00% 0.00786 286.11)",
+          "oklch(26.43% 0.00786 286.11)",
+          "oklch(37.86% 0.00786 286.11)",
+          "oklch(49.29% 0.00786 286.11)",
+          "oklch(60.71% 0.00786 286.11)",
+          "oklch(72.14% 0.00786 286.11)",
+          "oklch(83.57% 0.00786 286.11)",
+          "oklch(95.00% 0.00786 286.11)"
+        ]
+      },
+      "scene-muted": {
+        "role": "neutral",
+        "displayName": "伙伴说明灰色",
+        "canonical": "#626267",
+        "tonalRamp": [
+          "oklch(15.00% 0.00786 286.11)",
+          "oklch(26.43% 0.00786 286.11)",
+          "oklch(37.86% 0.00786 286.11)",
+          "oklch(49.29% 0.00786 286.11)",
+          "oklch(60.71% 0.00786 286.11)",
+          "oklch(72.14% 0.00786 286.11)",
+          "oklch(83.57% 0.00786 286.11)",
+          "oklch(95.00% 0.00786 286.11)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "细分隔灰",
+        "canonical": "#e4e4e8",
+        "tonalRamp": [
+          "oklch(15.00% 0.00538 286.29)",
+          "oklch(26.43% 0.00538 286.29)",
+          "oklch(37.86% 0.00538 286.29)",
+          "oklch(49.29% 0.00538 286.29)",
+          "oklch(60.71% 0.00538 286.29)",
+          "oklch(72.14% 0.00538 286.29)",
+          "oklch(83.57% 0.00538 286.29)",
+          "oklch(95.00% 0.00538 286.29)"
+        ]
+      },
+      "field-line": {
+        "role": "neutral",
+        "displayName": "控件轮廓灰",
+        "canonical": "#d2d2d8",
+        "tonalRamp": [
+          "oklch(15.00% 0.00820 286.23)",
+          "oklch(26.43% 0.00820 286.23)",
+          "oklch(37.86% 0.00820 286.23)",
+          "oklch(49.29% 0.00820 286.23)",
+          "oklch(60.71% 0.00820 286.23)",
+          "oklch(72.14% 0.00820 286.23)",
+          "oklch(83.57% 0.00820 286.23)",
+          "oklch(95.00% 0.00820 286.23)"
+        ]
+      },
+      "selected": {
+        "role": "neutral",
+        "displayName": "淡蓝选中面",
+        "canonical": "#e4effc",
+        "tonalRamp": [
+          "oklch(15.00% 0.02114 252.50)",
+          "oklch(26.43% 0.02114 252.50)",
+          "oklch(37.86% 0.02114 252.50)",
+          "oklch(49.29% 0.02114 252.50)",
+          "oklch(60.71% 0.02114 252.50)",
+          "oklch(72.14% 0.02114 252.50)",
+          "oklch(83.57% 0.02114 252.50)",
+          "oklch(95.00% 0.02114 252.50)"
+        ]
+      },
+      "quiet-hover": {
+        "role": "neutral",
+        "displayName": "中性悬停面",
+        "canonical": "#f1f1f4",
+        "tonalRamp": [
+          "oklch(15.00% 0.00399 286.32)",
+          "oklch(26.43% 0.00399 286.32)",
+          "oklch(37.86% 0.00399 286.32)",
+          "oklch(49.29% 0.00399 286.32)",
+          "oklch(60.71% 0.00399 286.32)",
+          "oklch(72.14% 0.00399 286.32)",
+          "oklch(83.57% 0.00399 286.32)",
+          "oklch(95.00% 0.00399 286.32)"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "错误红",
+        "canonical": "#b53c43",
+        "tonalRamp": [
+          "oklch(15.00% 0.15624 20.98)",
+          "oklch(26.43% 0.15624 20.98)",
+          "oklch(37.86% 0.15624 20.98)",
+          "oklch(49.29% 0.15624 20.98)",
+          "oklch(60.71% 0.15624 20.98)",
+          "oklch(72.14% 0.15624 20.98)",
+          "oklch(83.57% 0.15624 20.98)",
+          "oklch(95.00% 0.15624 20.98)"
+        ]
+      },
+      "dark-primary": {
+        "role": "primary",
+        "displayName": "深色 · 主要操作蓝",
+        "canonical": "#78b1ff",
+        "tonalRamp": [
+          "oklch(15.00% 0.12811 256.49)",
+          "oklch(26.43% 0.12811 256.49)",
+          "oklch(37.86% 0.12811 256.49)",
+          "oklch(49.29% 0.12811 256.49)",
+          "oklch(60.71% 0.12811 256.49)",
+          "oklch(72.14% 0.12811 256.49)",
+          "oklch(83.57% 0.12811 256.49)",
+          "oklch(95.00% 0.12811 256.49)"
+        ]
+      },
+      "dark-primary-hover": {
+        "role": "primary",
+        "displayName": "深色 · 操作蓝悬停",
+        "canonical": "#91bfff",
+        "tonalRamp": [
+          "oklch(15.00% 0.10393 256.74)",
+          "oklch(26.43% 0.10393 256.74)",
+          "oklch(37.86% 0.10393 256.74)",
+          "oklch(49.29% 0.10393 256.74)",
+          "oklch(60.71% 0.10393 256.74)",
+          "oklch(72.14% 0.10393 256.74)",
+          "oklch(83.57% 0.10393 256.74)",
+          "oklch(95.00% 0.10393 256.74)"
+        ]
+      },
+      "dark-on-primary": {
+        "role": "neutral",
+        "displayName": "深色 · 主按钮前景",
+        "canonical": "#122038",
+        "tonalRamp": [
+          "oklch(15.00% 0.05003 260.59)",
+          "oklch(26.43% 0.05003 260.59)",
+          "oklch(37.86% 0.05003 260.59)",
+          "oklch(49.29% 0.05003 260.59)",
+          "oklch(60.71% 0.05003 260.59)",
+          "oklch(72.14% 0.05003 260.59)",
+          "oklch(83.57% 0.05003 260.59)",
+          "oklch(95.00% 0.05003 260.59)"
+        ]
+      },
+      "dark-paper": {
+        "role": "neutral",
+        "displayName": "深色 · 连续内容表面",
+        "canonical": "#202023",
+        "tonalRamp": [
+          "oklch(15.00% 0.00564 285.98)",
+          "oklch(26.43% 0.00564 285.98)",
+          "oklch(37.86% 0.00564 285.98)",
+          "oklch(49.29% 0.00564 285.98)",
+          "oklch(60.71% 0.00564 285.98)",
+          "oklch(72.14% 0.00564 285.98)",
+          "oklch(83.57% 0.00564 285.98)",
+          "oklch(95.00% 0.00564 285.98)"
+        ]
+      },
+      "dark-canvas": {
+        "role": "neutral",
+        "displayName": "深色 · 安静画布",
+        "canonical": "#171719",
+        "tonalRamp": [
+          "oklch(15.00% 0.00392 286.05)",
+          "oklch(26.43% 0.00392 286.05)",
+          "oklch(37.86% 0.00392 286.05)",
+          "oklch(49.29% 0.00392 286.05)",
+          "oklch(60.71% 0.00392 286.05)",
+          "oklch(72.14% 0.00392 286.05)",
+          "oklch(83.57% 0.00392 286.05)",
+          "oklch(95.00% 0.00392 286.05)"
+        ]
+      },
+      "dark-scene": {
+        "role": "neutral",
+        "displayName": "深色 · 伙伴暖灰表面",
+        "canonical": "#252526",
+        "tonalRamp": [
+          "oklch(15.00% 0.00184 286.27)",
+          "oklch(26.43% 0.00184 286.27)",
+          "oklch(37.86% 0.00184 286.27)",
+          "oklch(49.29% 0.00184 286.27)",
+          "oklch(60.71% 0.00184 286.27)",
+          "oklch(72.14% 0.00184 286.27)",
+          "oklch(83.57% 0.00184 286.27)",
+          "oklch(95.00% 0.00184 286.27)"
+        ]
+      },
+      "dark-secondary": {
+        "role": "neutral",
+        "displayName": "深色 · 次级灰表面",
+        "canonical": "#2b2b30",
+        "tonalRamp": [
+          "oklch(15.00% 0.00901 285.83)",
+          "oklch(26.43% 0.00901 285.83)",
+          "oklch(37.86% 0.00901 285.83)",
+          "oklch(49.29% 0.00901 285.83)",
+          "oklch(60.71% 0.00901 285.83)",
+          "oklch(72.14% 0.00901 285.83)",
+          "oklch(83.57% 0.00901 285.83)",
+          "oklch(95.00% 0.00901 285.83)"
+        ]
+      },
+      "dark-sidebar": {
+        "role": "neutral",
+        "displayName": "深色 · 导航灰表面",
+        "canonical": "#1c1c1f",
+        "tonalRamp": [
+          "oklch(15.00% 0.00574 285.93)",
+          "oklch(26.43% 0.00574 285.93)",
+          "oklch(37.86% 0.00574 285.93)",
+          "oklch(49.29% 0.00574 285.93)",
+          "oklch(60.71% 0.00574 285.93)",
+          "oklch(72.14% 0.00574 285.93)",
+          "oklch(83.57% 0.00574 285.93)",
+          "oklch(95.00% 0.00574 285.93)"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "深色 · 正文墨色",
+        "canonical": "#f3f3f5",
+        "tonalRamp": [
+          "oklch(15.00% 0.00265 286.35)",
+          "oklch(26.43% 0.00265 286.35)",
+          "oklch(37.86% 0.00265 286.35)",
+          "oklch(49.29% 0.00265 286.35)",
+          "oklch(60.71% 0.00265 286.35)",
+          "oklch(72.14% 0.00265 286.35)",
+          "oklch(83.57% 0.00265 286.35)",
+          "oklch(95.00% 0.00265 286.35)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "深色 · 辅助灰色",
+        "canonical": "#a8a8af",
+        "tonalRamp": [
+          "oklch(15.00% 0.00998 286.15)",
+          "oklch(26.43% 0.00998 286.15)",
+          "oklch(37.86% 0.00998 286.15)",
+          "oklch(49.29% 0.00998 286.15)",
+          "oklch(60.71% 0.00998 286.15)",
+          "oklch(72.14% 0.00998 286.15)",
+          "oklch(83.57% 0.00998 286.15)",
+          "oklch(95.00% 0.00998 286.15)"
+        ]
+      },
+      "dark-scene-muted": {
+        "role": "neutral",
+        "displayName": "深色 · 伙伴说明灰色",
+        "canonical": "#a8a8af",
+        "tonalRamp": [
+          "oklch(15.00% 0.00998 286.15)",
+          "oklch(26.43% 0.00998 286.15)",
+          "oklch(37.86% 0.00998 286.15)",
+          "oklch(49.29% 0.00998 286.15)",
+          "oklch(60.71% 0.00998 286.15)",
+          "oklch(72.14% 0.00998 286.15)",
+          "oklch(83.57% 0.00998 286.15)",
+          "oklch(95.00% 0.00998 286.15)"
+        ]
+      },
+      "dark-line": {
+        "role": "neutral",
+        "displayName": "深色 · 细分隔灰",
+        "canonical": "#37373c",
+        "tonalRamp": [
+          "oklch(15.00% 0.00867 285.93)",
+          "oklch(26.43% 0.00867 285.93)",
+          "oklch(37.86% 0.00867 285.93)",
+          "oklch(49.29% 0.00867 285.93)",
+          "oklch(60.71% 0.00867 285.93)",
+          "oklch(72.14% 0.00867 285.93)",
+          "oklch(83.57% 0.00867 285.93)",
+          "oklch(95.00% 0.00867 285.93)"
+        ]
+      },
+      "dark-field-line": {
+        "role": "neutral",
+        "displayName": "深色 · 控件轮廓灰",
+        "canonical": "#515158",
+        "tonalRamp": [
+          "oklch(15.00% 0.01138 285.92)",
+          "oklch(26.43% 0.01138 285.92)",
+          "oklch(37.86% 0.01138 285.92)",
+          "oklch(49.29% 0.01138 285.92)",
+          "oklch(60.71% 0.01138 285.92)",
+          "oklch(72.14% 0.01138 285.92)",
+          "oklch(83.57% 0.01138 285.92)",
+          "oklch(95.00% 0.01138 285.92)"
+        ]
+      },
+      "dark-selected": {
+        "role": "neutral",
+        "displayName": "深色 · 淡蓝选中面",
+        "canonical": "#283b55",
+        "tonalRamp": [
+          "oklch(15.00% 0.05196 256.43)",
+          "oklch(26.43% 0.05196 256.43)",
+          "oklch(37.86% 0.05196 256.43)",
+          "oklch(49.29% 0.05196 256.43)",
+          "oklch(60.71% 0.05196 256.43)",
+          "oklch(72.14% 0.05196 256.43)",
+          "oklch(83.57% 0.05196 256.43)",
+          "oklch(95.00% 0.05196 256.43)"
+        ]
+      },
+      "dark-quiet-hover": {
+        "role": "neutral",
+        "displayName": "深色 · 中性悬停面",
+        "canonical": "#2c2c31",
+        "tonalRamp": [
+          "oklch(15.00% 0.00898 285.84)",
+          "oklch(26.43% 0.00898 285.84)",
+          "oklch(37.86% 0.00898 285.84)",
+          "oklch(49.29% 0.00898 285.84)",
+          "oklch(60.71% 0.00898 285.84)",
+          "oklch(72.14% 0.00898 285.84)",
+          "oklch(83.57% 0.00898 285.84)",
+          "oklch(95.00% 0.00898 285.84)"
+        ]
+      },
+      "dark-error": {
+        "role": "neutral",
+        "displayName": "深色 · 错误红",
+        "canonical": "#ffabb2",
+        "tonalRamp": [
+          "oklch(15.00% 0.09922 13.99)",
+          "oklch(26.43% 0.09922 13.99)",
+          "oklch(37.86% 0.09922 13.99)",
+          "oklch(49.29% 0.09922 13.99)",
+          "oklch(60.71% 0.09922 13.99)",
+          "oklch(72.14% 0.09922 13.99)",
+          "oklch(83.57% 0.09922 13.99)",
+          "oklch(95.00% 0.09922 13.99)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "body": {
+        "displayName": "任务与对话正文",
+        "purpose": "14px，真实长标题完整换行。"
+      },
+      "heading": {
+        "displayName": "页面主标题",
+        "purpose": "25px / 600，位于内容入口。"
+      },
+      "section": {
+        "displayName": "分组标题",
+        "purpose": "17px / 600，设置及内容分组。"
+      },
+      "caption": {
+        "displayName": "辅助说明",
+        "purpose": "12px，状态、反馈、提示与次要文字。"
+      },
+      "timer": {
+        "displayName": "专注计时数字",
+        "purpose": "50px附近的等宽数字，聊天紧凑计时23px；实际用户字体由app-font统一应用。"
+      }
+    },
+    "shadows": [
+      {
+        "name": "message",
+        "value": "0 8px 24px #00000026",
+        "purpose": "短暂反馈浮层与连续内容面分离。"
+      },
+      {
+        "name": "range-thumb",
+        "value": "0 2px 4px #0000001a",
+        "purpose": "大小滑杆定位反馈。"
+      },
+      {
+        "name": "segment-selected",
+        "value": "0 1px 3px #00000014",
+        "purpose": "设置中性分段选中项。"
+      },
+      {
+        "name": "pet-paper",
+        "value": "inset 0 0 0 1px #e4e4e880, 0 4px 12px #1d1d1f1c",
+        "purpose": "透明桌宠气泡与操作条，淡轮廓和软阴影。"
+      },
+      {
+        "name": "pet-dark",
+        "value": "inset 0 0 0 1px #51515866, 0 4px 12px #0000004d",
+        "purpose": "深色桌宠提示的背景辨识度。"
+      },
+      {
+        "name": "toggle-thumb",
+        "value": "0 1px 3px #00000026",
+        "purpose": "开关滑块的轻微层级。"
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-transition",
+        "value": "140ms ease-out",
+        "purpose": "按钮颜色与边线反馈。"
+      },
+      {
+        "name": "palette-cycle",
+        "value": "36000ms / 72000ms",
+        "purpose": "灵动与轻柔模式的米白、桃粉、薄荷、淡蓝、浅紫连续颜色循环。"
+      },
+      {
+        "name": "nearby-gaze",
+        "value": "25Hz maximum / 350 DIP",
+        "purpose": "桌宠附近鼠标眼神平滑跟随；隐藏与静止停止采样。"
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "CSS控件关闭过渡；角色动作由应用内灵动、轻柔、静止设置控制。"
+      },
+      {
+        "name": "pet-scale",
+        "value": "70%–150% / 1% step",
+        "purpose": "CSS整体transform与原生窗口尺寸同步，释放滑杆后应用，不添加延迟动画。"
+      },
+      {
+        "name": "pet-hover-reveal",
+        "value": "opacity 160ms ease-out / transform 180ms cubic-bezier(.16, 1, .3, 1) / exit delay 250ms",
+        "purpose": "默认 opacity 0、visibility hidden、pointer-events none；悬停立即显现，键盘路径同时要求 data-keyboard-reveal=true 与 focus-visible。窗口内 pointerdown 和窗口 blur 清除键盘标记，非组合修饰键的 keydown 启用标记，程序 focus 不单独锁住提示；移出延迟250ms后收起，410ms时隐藏可见性。示意组件不嵌运行时监听。"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-content-width",
+        "value": "950px",
+        "purpose": "窗口宽度不超过950px时侧栏144px、书桌伙伴248px，布置动作保留第3列第1行。"
+      },
+      {
+        "name": "compact-content-height",
+        "value": "700px",
+        "purpose": "客户区高度不超过700px时书桌球110px、场景188px，计时与单行任务标题横排并隐藏重复说明。"
+      }
+    ],
+    "fontPreferences": {
+      "defaultStack": "\"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Segoe UI\", sans-serif",
+      "families": [
+        "system",
+        "yahei",
+        "segoe",
+        "custom"
+      ],
+      "textScale": {
+        "small": 0.9,
+        "normal": 1,
+        "large": 1.15
+      },
+      "asset": "Local FontFace bytes from bounded active-font bridge",
+      "recovery": "fontRevision retries the same imported id; failed font promises are evicted"
+    },
+    "surfaces": [
+      {
+        "id": "desk",
+        "title": "想做的事",
+        "mode": "Operate",
+        "selector": "#desk-page",
+        "sources": [
+          "src/renderer/index.html",
+          "src/renderer/styles.css",
+          "src/renderer/app.js"
+        ],
+        "components": [
+          "page-navigation",
+          "field-task",
+          "task-row"
+        ],
+        "layout": {
+          "shellColumns": "160px minmax(0, 1fr)",
+          "compactShellColumns": "144px minmax(0, 1fr)",
+          "headerHeight": "64px",
+          "columns": "minmax(0, 1fr) 256px",
+          "compactColumns": "minmax(0, 1fr) 248px",
+          "store": "底部横排布置",
+          "heading": "25px * text-scale",
+          "body": "14px * text-scale",
+          "companionPadding": "20px 20px 14px / width <=950px: horizontal 16px / height <=700px: vertical 14px 10px",
+          "mainBall": "128px / height <=700px: 110px",
+          "sceneHeight": "204px / height <=700px: 188px",
+          "focusLayout": "column / height <=700px on desk: row",
+          "focusGap": "5px / height <=700px on desk: 8px",
+          "focusMargin": "12px 0 10px / height <=700px on desk: 8px 0",
+          "focusTaskTitle": "single line with ellipsis; complete title remains in DOM",
+          "activeFocusControls": "44px minmax(0, 1fr) 40px; stop control is 40px square with complete accessible text",
+          "compactHeightSecondary": "desk focus-caption, focus-note and size-help hidden at height <=700px",
+          "compactShelfAction": "width <=950px: grid-column 3, grid-row 1; two shelf text rows preserved"
+        },
+        "behavior": "个人任务、选择、完成、计时与奖励沿用真实状态；主球保持单个实例。"
+      },
+      {
+        "id": "chat",
+        "title": "和 AI 聊一聊",
+        "mode": "Operate",
+        "selector": "#chat-page",
+        "sources": [
+          "src/renderer/index.html",
+          "src/renderer/chat.js",
+          "src/renderer/extensions.css"
+        ],
+        "components": [
+          "page-navigation",
+          "chat-composer"
+        ],
+        "layout": {
+          "historyColumns": "174px minmax(0, 1fr)",
+          "compactHistoryColumns": "142px minmax(0, 1fr)",
+          "historyHiddenColumns": "minmax(0, 1fr)",
+          "gap": "24px / compact 18px",
+          "heading": "25px * text-scale",
+          "messageBody": "14px * text-scale / line-height 1.85 / max-width 72ch",
+          "companion": "紧凑实时球与个人计时"
+        },
+        "behavior": "正文独立滚动、历史按需展开，输入固定可达；模型、发送、停止、重试、复制和附带任务保留。"
+      },
+      {
+        "id": "decompose",
+        "title": "从一小步开始",
+        "mode": "Operate",
+        "selector": "#decompose-page",
+        "sources": [
+          "src/renderer/index.html",
+          "src/renderer/chat.js",
+          "src/renderer/extensions.css"
+        ],
+        "components": [],
+        "layout": {
+          "stepColumns": "22px minmax(0, 1fr) 104px",
+          "gap": "12px",
+          "heading": "25px * text-scale"
+        },
+        "behavior": "从书桌进入，归属书桌导航；先生成建议，再编辑勾选并确认加入任务。"
+      },
+      {
+        "id": "study",
+        "title": "给伙伴留个座位",
+        "mode": "Operate",
+        "selector": "#study-page",
+        "sources": [
+          "src/renderer/index.html",
+          "src/renderer/study.js",
+          "src/renderer/extensions.css"
+        ],
+        "components": [
+          "page-navigation"
+        ],
+        "layout": {
+          "roomColumns": "minmax(0, 1fr) 242px",
+          "compactRoomColumns": "minmax(0, 1fr) 212px",
+          "gap": "28px / compact 20px",
+          "memberBall": "150px / compact-width 134px / compact-height 124px",
+          "timer": "50px * text-scale / compact-height 46px",
+          "heading": "25px * text-scale"
+        },
+        "behavior": "真实邀请码、双球/准备状态、共同计时与右侧聊天；消息内部滚动，输入固定，等待/离线/重连不伪造成员。连接未恢复时，中央状态显示正在连接房间，等待连接完成或连接中断，等待重新连接；轮次业务状态保留。"
+      },
+      {
+        "id": "ai-settings",
+        "title": "AI 连接",
+        "mode": "Operate",
+        "selector": "#settings-section-ai",
+        "sources": [
+          "src/renderer/index.html",
+          "src/renderer/chat.js",
+          "src/renderer/extensions.css"
+        ],
+        "components": [
+          "ai-profile-form"
+        ],
+        "layout": {
+          "columns": "repeat(2, minmax(0, 1fr))",
+          "gap": "20px 22px / compact 18px",
+          "fullWidthFields": [
+            "服务地址",
+            "API Key"
+          ]
+        },
+        "behavior": "沿用同窗口设置导航；多连接显式保存，随后按需测试或读取模型列表，返回来源页面。"
+      },
+      {
+        "id": "settings",
+        "title": "让这里更合你意",
+        "mode": "Operate",
+        "selector": "#settings-page",
+        "sources": [
+          "src/renderer/index.html",
+          "src/renderer/settings.js",
+          "src/renderer/settings.css"
+        ],
+        "components": [
+          "settings-segment"
+        ],
+        "layout": {
+          "columns": "134px minmax(0, 1fr)",
+          "compactColumns": "124px minmax(0, 1fr)",
+          "gap": "28px / compact 20px",
+          "rows": "连续真实偏好行，当前分组独立滚动"
+        },
+        "behavior": "返回与保存反馈常驻；二级分类单组显示，返回来源页面及可见入口焦点。"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "主要操作按钮",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "蓝色表面配独立 on-primary 前景；当前主要操作与真实状态对应。",
+      "html": "<div class=\"ds-preview\"><button type=\"button\" class=\"ds-primary-button ds-focus-primary\" id=\"ds-focus-start\"><svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"m7 4 9 6-9 6z\"/></svg>开始专注</button></div>",
+      "css": ".ds-preview { font-family: var(--app-font, \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Segoe UI\", sans-serif); font-size: calc(14px * var(--text-scale, 1)); line-height: 1.6; color: var(--ink, #1d1d1f); } .ds-preview button, .ds-preview input, .ds-preview select, .ds-preview textarea { font: inherit; } .ds-preview button { cursor: pointer; transition: color 140ms ease-out, background-color 140ms ease-out, border-color 140ms ease-out; } .ds-preview button:disabled { cursor: default; } .ds-preview button:focus-visible, .ds-preview input:focus-visible, .ds-preview textarea:focus-visible, .ds-preview select:focus-visible { outline: 2px solid var(--primary, #0066cc); outline-offset: 3px; } .ds-preview input::placeholder, .ds-preview textarea::placeholder { color: var(--muted, #626267); } .ds-preview button svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; } @media (prefers-reduced-motion: reduce) { .ds-preview button { transition: none; } }\n.ds-primary-button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 40px; padding: 8px 12px; border: 0; border-radius: 8px; color: var(--on-primary, #ffffff); background: var(--green, #0066cc); font-size: calc(14px * var(--text-scale, 1)); font-weight: 500; white-space: nowrap; }\n.ds-primary-button:hover { background: var(--green-hover, #005bb7); }\n.ds-primary-button:disabled { opacity: .65; }\n.ds-primary-button svg { width: 15px; height: 15px; stroke-width: 1.7; }\n.ds-focus-primary { font-size: calc(13px * var(--text-scale, 1)); padding-left: 8px; padding-right: 8px; }\n.ds-primary-button { color: var(--on-primary, #ffffff); }\n.ds-primary-button:disabled { background: var(--disabled, #96969f); }"
+    },
+    {
+      "name": "次要边框按钮",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "中性表面、细轮廓和8px圆角，用于字体导入和显式次要操作。",
+      "html": "<div class=\"ds-preview\"><button type=\"button\" id=\"ds-settings-font-import\" class=\"ds-secondary-button\"><svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M10 13V3m-4 4 4-4 4 4M3 12v5h14v-5\"/></svg>导入字体</button></div>",
+      "css": ".ds-preview { font-family: var(--app-font, \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Segoe UI\", sans-serif); font-size: calc(14px * var(--text-scale, 1)); line-height: 1.6; color: var(--ink, #1d1d1f); } .ds-preview button, .ds-preview input, .ds-preview select, .ds-preview textarea { font: inherit; } .ds-preview button { cursor: pointer; transition: color 140ms ease-out, background-color 140ms ease-out, border-color 140ms ease-out; } .ds-preview button:disabled { cursor: default; } .ds-preview button:focus-visible, .ds-preview input:focus-visible, .ds-preview textarea:focus-visible, .ds-preview select:focus-visible { outline: 2px solid var(--primary, #0066cc); outline-offset: 3px; } .ds-preview input::placeholder, .ds-preview textarea::placeholder { color: var(--muted, #626267); } .ds-preview button svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; } @media (prefers-reduced-motion: reduce) { .ds-preview button { transition: none; } }\n.ds-secondary-button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 40px; padding: 7px 12px; border: 1px solid var(--field-line, #d2d2d8); border-radius: 8px; color: var(--ink, #1d1d1f); background: var(--paper, #ffffff); font-size: calc(13px * var(--text-scale, 1)); line-height: 1.6; }\n.ds-secondary-button:hover { background: var(--quiet-hover, #f1f1f4); border-color: var(--selection-line, #b3b3bd); }\n.ds-secondary-button:disabled { opacity: .65; }\n.ds-secondary-button svg { width: 16px; height: 16px; }"
+    },
+    {
+      "name": "轻量表面按钮",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "次级灰表面用于拆解等入口，悬停继续使用中性色。",
+      "html": "<div class=\"ds-preview\"><button type=\"button\" id=\"ds-decompose-open\" class=\"ds-quiet-button\"><svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"m10 2 1.8 5.2L17 9l-5.2 1.8L10 16l-1.8-5.2L3 9l5.2-1.8zM16 2v4M14 4h4\"/></svg>帮我拆解</button></div>",
+      "css": ".ds-preview { font-family: var(--app-font, \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Segoe UI\", sans-serif); font-size: calc(14px * var(--text-scale, 1)); line-height: 1.6; color: var(--ink, #1d1d1f); } .ds-preview button, .ds-preview input, .ds-preview select, .ds-preview textarea { font: inherit; } .ds-preview button { cursor: pointer; transition: color 140ms ease-out, background-color 140ms ease-out, border-color 140ms ease-out; } .ds-preview button:disabled { cursor: default; } .ds-preview button:focus-visible, .ds-preview input:focus-visible, .ds-preview textarea:focus-visible, .ds-preview select:focus-visible { outline: 2px solid var(--primary, #0066cc); outline-offset: 3px; } .ds-preview input::placeholder, .ds-preview textarea::placeholder { color: var(--muted, #626267); } .ds-preview button svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; } @media (prefers-reduced-motion: reduce) { .ds-preview button { transition: none; } }\n.ds-quiet-button { display: inline-flex; justify-content: center; align-items: center; gap: 7px; min-height: 40px; padding: 7px 11px; color: var(--ink, #1d1d1f); border: 0; border-radius: 8px; background: var(--secondary, #efeff2); font-size: calc(13px * var(--text-scale, 1)); }\n.ds-quiet-button:hover { background: var(--quiet-hover, var(--line, #e4e4e8)); }\n.ds-quiet-button:disabled { opacity: .6; }\n.ds-quiet-button:hover { background: var(--quiet-hover, #f1f1f4); }"
+    },
+    {
+      "name": "文字动作按钮",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "蓝色文字承载低优先级动作，保留完整键盘焦点。",
+      "html": "<div class=\"ds-preview\"><button type=\"button\" id=\"ds-settings-font-reset\" class=\"ds-text-button\">恢复系统字体</button></div>",
+      "css": ".ds-preview { font-family: var(--app-font, \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Segoe UI\", sans-serif); font-size: calc(14px * var(--text-scale, 1)); line-height: 1.6; color: var(--ink, #1d1d1f); } .ds-preview button, .ds-preview input, .ds-preview select, .ds-preview textarea { font: inherit; } .ds-preview button { cursor: pointer; transition: color 140ms ease-out, background-color 140ms ease-out, border-color 140ms ease-out; } .ds-preview button:disabled { cursor: default; } .ds-preview button:focus-visible, .ds-preview input:focus-visible, .ds-preview textarea:focus-visible, .ds-preview select:focus-visible { outline: 2px solid var(--primary, #0066cc); outline-offset: 3px; } .ds-preview input::placeholder, .ds-preview textarea::placeholder { color: var(--muted, #626267); } .ds-preview button svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; } @media (prefers-reduced-motion: reduce) { .ds-preview button { transition: none; } }\n.ds-text-button { display: inline-flex; align-items: center; justify-content: center; gap: 5px; min-height: 36px; padding: 4px 5px; border: 0; border-radius: 6px; background: transparent; color: var(--green, #0066cc); font-size: calc(12px * var(--text-scale, 1)); }\n.ds-text-button:hover { background: var(--selected, #e4effc); }\n.ds-text-button:disabled { opacity: .6; }\n.ds-text-button svg { width: 16px; height: 16px; }"
+    },
+    {
+      "name": "连续任务添加行",
+      "kind": "input",
+      "refersTo": "field-task",
+      "description": "开放输入行与蓝色添加动作，聚焦时强调下边线。",
+      "html": "<div class=\"ds-preview\"><p id=\"ds-task-error\" class=\"ds-inline-error\" role=\"alert\" hidden></p><form class=\"ds-task-form\" id=\"ds-task-form\">\n          <label class=\"ds-visually-hidden\" for=\"ds-task-input\">想做的事</label>\n          <input id=\"ds-task-input\" type=\"text\" maxlength=\"140\" placeholder=\"写下一件小事…\" autocomplete=\"off\" aria-describedby=\"ds-task-error\">\n          <button type=\"submit\" class=\"ds-add-button\" id=\"ds-task-add\" aria-label=\"添加任务\"><svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M10 4v12M4 10h12\"/></svg><span>添加</span></button>\n        </form></div>",
+      "css": ".ds-preview { font-family: var(--app-font, \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Segoe UI\", sans-serif); font-size: calc(14px * var(--text-scale, 1)); line-height: 1.6; color: var(--ink, #1d1d1f); } .ds-preview button, .ds-preview input, .ds-preview select, .ds-preview textarea { font: inherit; } .ds-preview button { cursor: pointer; transition: color 140ms ease-out, background-color 140ms ease-out, border-color 140ms ease-out; } .ds-preview button:disabled { cursor: default; } .ds-preview button:focus-visible, .ds-preview input:focus-visible, .ds-preview textarea:focus-visible, .ds-preview select:focus-visible { outline: 2px solid var(--primary, #0066cc); outline-offset: 3px; } .ds-preview input::placeholder, .ds-preview textarea::placeholder { color: var(--muted, #626267); } .ds-preview button svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; } @media (prefers-reduced-motion: reduce) { .ds-preview button { transition: none; } }\n.ds-task-form { display: flex; align-items: center; gap: 10px; min-height: 46px; margin-top: 8px; padding: 4px 0; border-bottom: 1px solid var(--field-line, #d2d2d8); }\n.ds-task-form:focus-within { border-color: var(--green, #0066cc); }\n.ds-task-form input { width: 100%; min-width: 0; min-height: 38px; border: 0; padding: 4px 0; color: var(--ink, #1d1d1f); background: transparent; }\n.ds-task-form input:focus-visible { outline: none; }\n.ds-add-button { display: inline-flex; align-items: center; justify-content: center; gap: 5px; flex-shrink: 0; min-height: 36px; padding: 6px 8px; border: 0; border-radius: 8px; color: var(--green, #0066cc); background: transparent; font-size: calc(13px * var(--text-scale, 1)); white-space: nowrap; }\n.ds-add-button:hover { background: var(--selected, #e4effc); }\n.ds-add-button:disabled { opacity: .6; }\n.ds-add-button svg { width: 16px; height: 16px; }\n.ds-visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }\n.ds-inline-error { color: var(--error, #b53c43); font-size: calc(12px * var(--text-scale, 1)); line-height: 1.7; }"
+    },
+    {
+      "name": "侧栏页面导航",
+      "kind": "nav",
+      "refersTo": "page-navigation",
+      "description": "侧栏真实页面入口，aria-current 表示当前页。",
+      "html": "<div class=\"ds-preview\"><nav class=\"ds-page-nav\" aria-label=\"主页面\">\n        <button type=\"button\" class=\"ds-sidebar-item\" data-page=\"desk\" aria-current=\"page\"><svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M5 3h10v14H5zM8 7h4M8 10h4M8 13h2\"/></svg><span>书桌</span></button>\n        <button type=\"button\" class=\"ds-sidebar-item\" data-page=\"chat\"><svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M3 4h14v10H8l-4 3v-3H3zM6 8h8M6 11h5\"/></svg><span>聊天</span></button>\n        <button type=\"button\" class=\"ds-sidebar-item\" data-page=\"study\"><svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><circle cx=\"7\" cy=\"6\" r=\"2.5\"/><circle cx=\"14\" cy=\"7\" r=\"2\"/><path d=\"M2 17v-3a5 5 0 0 1 10 0v3M13 11a4 4 0 0 1 5 4v2\"/></svg><span>双人共学</span></button>\n      </nav></div>",
+      "css": ".ds-preview { font-family: var(--app-font, \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Segoe UI\", sans-serif); font-size: calc(14px * var(--text-scale, 1)); line-height: 1.6; color: var(--ink, #1d1d1f); } .ds-preview button, .ds-preview input, .ds-preview select, .ds-preview textarea { font: inherit; } .ds-preview button { cursor: pointer; transition: color 140ms ease-out, background-color 140ms ease-out, border-color 140ms ease-out; } .ds-preview button:disabled { cursor: default; } .ds-preview button:focus-visible, .ds-preview input:focus-visible, .ds-preview textarea:focus-visible, .ds-preview select:focus-visible { outline: 2px solid var(--primary, #0066cc); outline-offset: 3px; } .ds-preview input::placeholder, .ds-preview textarea::placeholder { color: var(--muted, #626267); } .ds-preview button svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; } @media (prefers-reduced-motion: reduce) { .ds-preview button { transition: none; } }\n.ds-page-nav { display: grid; gap: 5px; }\n.ds-sidebar-item { display: flex; align-items: center; gap: 9px; width: 100%; min-height: 42px; padding: 8px 10px; text-align: left; border: 0; border-radius: 8px; background: transparent; color: var(--ink, #1d1d1f); font-size: calc(14px * var(--text-scale, 1)); line-height: 1.5; white-space: nowrap; }\n.ds-sidebar-item svg { color: var(--muted, #626267); width: 17px; height: 17px; }\n.ds-sidebar-item:hover { background: var(--quiet-hover, var(--secondary, #efeff2)); }\n.ds-sidebar-item[aria-current=\"page\"] { color: var(--green, #0066cc); background: var(--selected, #e4effc); font-weight: 600; }\n.ds-sidebar-item[aria-current=\"page\"] svg { color: var(--green, #0066cc); }"
+    },
+    {
+      "name": "连续任务选择行",
+      "kind": "custom",
+      "refersTo": "task-row",
+      "description": "标题完整换行，圆点选择和独立完成动作保留；选中使用淡蓝表面。",
+      "html": "<div class=\"ds-preview\"><div class=\"ds-task-row\"><button type=\"button\" class=\"ds-task-select\" aria-pressed=\"true\"><span class=\"ds-select-indicator\" aria-hidden=\"true\"></span><span class=\"ds-task-title\">读两页书</span></button><button type=\"button\" class=\"ds-task-complete\"><svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"m4 10 4 4 8-8\"/></svg>完成</button></div></div>",
+      "css": ".ds-preview { font-family: var(--app-font, \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Segoe UI\", sans-serif); font-size: calc(14px * var(--text-scale, 1)); line-height: 1.6; color: var(--ink, #1d1d1f); } .ds-preview button, .ds-preview input, .ds-preview select, .ds-preview textarea { font: inherit; } .ds-preview button { cursor: pointer; transition: color 140ms ease-out, background-color 140ms ease-out, border-color 140ms ease-out; } .ds-preview button:disabled { cursor: default; } .ds-preview button:focus-visible, .ds-preview input:focus-visible, .ds-preview textarea:focus-visible, .ds-preview select:focus-visible { outline: 2px solid var(--primary, #0066cc); outline-offset: 3px; } .ds-preview input::placeholder, .ds-preview textarea::placeholder { color: var(--muted, #626267); } .ds-preview button svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; } @media (prefers-reduced-motion: reduce) { .ds-preview button { transition: none; } }\n.ds-task-row { display: flex; align-items: center; gap: 10px; min-height: 64px; padding: 10px 10px; margin: 0 -10px; border-radius: 8px; border-bottom: 1px solid var(--line, #e4e4e8); }\n.ds-task-row:last-child { border-bottom-color: transparent; }\n.ds-task-row:hover { background: var(--quiet-hover, var(--secondary, #efeff2)); }\n.ds-task-row:has(.ds-task-select[aria-pressed=\"true\"]) { background: var(--selected, #e4effc); border-bottom-color: transparent; }\n.ds-task-select { display: flex; align-items: center; gap: 12px; min-width: 0; flex: 1; min-height: 40px; padding: 3px 0; border: 0; border-radius: 8px; text-align: left; color: var(--ink, #1d1d1f); background: transparent; }\n.ds-task-title { font-size: calc(14px * var(--text-scale, 1)); font-weight: 500; line-height: 1.7; overflow-wrap: anywhere; }\n.ds-task-select:hover .ds-task-title { color: var(--green, #0066cc); }\n.ds-select-indicator { display: flex; align-items: center; justify-content: center; width: 18px; height: 18px; flex: 0 0 18px; border: 1.5px solid var(--field-line, #d2d2d8); border-radius: 50%; }\n.ds-task-select[aria-pressed=\"true\"] .ds-select-indicator { border-color: var(--green, #0066cc); }\n.ds-task-select[aria-pressed=\"true\"] .ds-select-indicator::after { content: \"\"; width: 8px; height: 8px; border-radius: 50%; background: var(--green, #0066cc); }\n.ds-task-complete { display: inline-flex; align-items: center; justify-content: center; gap: 4px; flex-shrink: 0; min-height: 36px; min-width: 58px; padding: 6px 8px; border: 1px solid var(--field-line, #d2d2d8); border-radius: 8px; color: var(--green, #0066cc); background: var(--paper, #ffffff); font-size: calc(12px * var(--text-scale, 1)); white-space: nowrap; }\n.ds-task-complete svg { width: 13px; height: 13px; }\n.ds-task-complete:hover { background: var(--selected, #e4effc); border-color: var(--green, #0066cc); }\n.ds-task-complete:disabled { opacity: .6; }\n.ds-select-indicator, .ds-task-complete:hover { border-color: var(--selection-line, #b3b3bd); }"
+    },
+    {
+      "name": "中性分段偏好",
+      "kind": "custom",
+      "refersTo": "settings-segment",
+      "description": "中性轨道与内容表面选中项，aria-pressed 对应真实主题、字号或动作偏好。",
+      "html": "<div class=\"ds-preview\"><div class=\"ds-setting-copy\"><h3 id=\"ds-settings-theme-label\">主题风格</h3></div><div id=\"ds-settings-theme\" class=\"ds-settings-segment\" role=\"group\" aria-labelledby=\"ds-settings-theme-label\"><button type=\"button\" data-theme-mode=\"light\" aria-pressed=\"false\">浅色</button><button type=\"button\" data-theme-mode=\"dark\" aria-pressed=\"false\">深色</button><button type=\"button\" data-theme-mode=\"system\" aria-pressed=\"true\">跟随系统</button></div></div>",
+      "css": ".ds-preview { font-family: var(--app-font, \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Segoe UI\", sans-serif); font-size: calc(14px * var(--text-scale, 1)); line-height: 1.6; color: var(--ink, #1d1d1f); } .ds-preview button, .ds-preview input, .ds-preview select, .ds-preview textarea { font: inherit; } .ds-preview button { cursor: pointer; transition: color 140ms ease-out, background-color 140ms ease-out, border-color 140ms ease-out; } .ds-preview button:disabled { cursor: default; } .ds-preview button:focus-visible, .ds-preview input:focus-visible, .ds-preview textarea:focus-visible, .ds-preview select:focus-visible { outline: 2px solid var(--primary, #0066cc); outline-offset: 3px; } .ds-preview input::placeholder, .ds-preview textarea::placeholder { color: var(--muted, #626267); } .ds-preview button svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; } @media (prefers-reduced-motion: reduce) { .ds-preview button { transition: none; } }\n.ds-settings-segment { display: flex; gap: 3px; padding: 3px; background: var(--secondary, #efeff2); border-radius: 8px; min-width: 0; }\n.ds-settings-segment button { flex: 1; min-width: 0; min-height: 34px; padding: 5px 8px; border: 0; border-radius: 6px; background: transparent; color: var(--muted, #626267); font-size: calc(12px * var(--text-scale, 1)); line-height: 1.7; white-space: nowrap; }\n.ds-settings-segment button:hover { color: var(--ink, #1d1d1f); }\n.ds-settings-segment button[aria-pressed=\"true\"] { color: var(--ink, #1d1d1f); background: var(--paper, #ffffff); box-shadow: 0 1px 3px #00000014; }\n.ds-settings-segment button:disabled { opacity: .65; }\n.ds-setting-copy h3 { margin: 0 0 8px; font-size: calc(14px * var(--text-scale, 1)); font-weight: 500; line-height: 1.65; color: var(--ink, #1d1d1f); }"
+    },
+    {
+      "name": "聊天输入与发送停止",
+      "kind": "input",
+      "refersTo": "chat-composer",
+      "description": "正文独立滚动，输入与当前发送/停止动作保持可达。",
+      "html": "<div class=\"ds-preview\"><form id=\"ds-chat-form\" class=\"ds-chat-composer\"><div id=\"ds-chat-task-context\" class=\"ds-task-context\" hidden><span id=\"ds-chat-task-context-title\"></span><button type=\"button\" id=\"ds-chat-task-remove\" class=\"ds-quiet-button\" aria-label=\"移除附带任务\">移除</button></div><label class=\"ds-visually-hidden\" for=\"ds-chat-input\">聊天内容</label><textarea id=\"ds-chat-input\" rows=\"3\" maxlength=\"16000\" placeholder=\"说说你想了解什么… Ctrl + Enter 发送\"></textarea><div class=\"ds-composer-actions\"><button type=\"button\" id=\"ds-chat-attach-task\" class=\"ds-text-button\">附带选中任务</button><span class=\"ds-composer-hint\">AI 回答供参考</span><button type=\"button\" id=\"ds-chat-stop\" class=\"ds-secondary-button\" hidden>停止生成</button><button type=\"submit\" id=\"ds-chat-send\" class=\"ds-primary-button\">发送</button></div></form></div>",
+      "css": ".ds-preview { font-family: var(--app-font, \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Segoe UI\", sans-serif); font-size: calc(14px * var(--text-scale, 1)); line-height: 1.6; color: var(--ink, #1d1d1f); } .ds-preview button, .ds-preview input, .ds-preview select, .ds-preview textarea { font: inherit; } .ds-preview button { cursor: pointer; transition: color 140ms ease-out, background-color 140ms ease-out, border-color 140ms ease-out; } .ds-preview button:disabled { cursor: default; } .ds-preview button:focus-visible, .ds-preview input:focus-visible, .ds-preview textarea:focus-visible, .ds-preview select:focus-visible { outline: 2px solid var(--primary, #0066cc); outline-offset: 3px; } .ds-preview input::placeholder, .ds-preview textarea::placeholder { color: var(--muted, #626267); } .ds-preview button svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; } @media (prefers-reduced-motion: reduce) { .ds-preview button { transition: none; } }\n.ds-quiet-button { display: inline-flex; justify-content: center; align-items: center; gap: 7px; min-height: 40px; padding: 7px 11px; color: var(--ink, #1d1d1f); border: 0; border-radius: 8px; background: var(--secondary, #efeff2); font-size: calc(13px * var(--text-scale, 1)); }\n.ds-quiet-button:hover { background: var(--quiet-hover, var(--line, #e4e4e8)); }\n.ds-quiet-button:disabled { opacity: .6; }\n.ds-text-button { display: inline-flex; align-items: center; justify-content: center; gap: 5px; min-height: 36px; padding: 4px 5px; border: 0; border-radius: 6px; background: transparent; color: var(--green, #0066cc); font-size: calc(12px * var(--text-scale, 1)); }\n.ds-text-button:hover { background: var(--selected, #e4effc); }\n.ds-text-button:disabled { opacity: .6; }\n.ds-text-button svg { width: 16px; height: 16px; }\n.ds-primary-button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 40px; padding: 8px 12px; border: 0; border-radius: 8px; color: var(--on-primary, #ffffff); background: var(--green, #0066cc); font-size: calc(14px * var(--text-scale, 1)); font-weight: 500; white-space: nowrap; }\n.ds-primary-button:hover { background: var(--green-hover, #005bb7); }\n.ds-primary-button:disabled { opacity: .65; }\n.ds-primary-button svg { width: 15px; height: 15px; stroke-width: 1.7; }\n.ds-visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }\n.ds-quiet-button:hover { background: var(--quiet-hover, #f1f1f4); }\n.ds-primary-button { color: var(--on-primary, #ffffff); }\n.ds-primary-button:disabled { background: var(--disabled, #96969f); }\n.ds-secondary-button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 40px; padding: 7px 12px; border: 1px solid var(--field-line, #d2d2d8); border-radius: 8px; color: var(--ink, #1d1d1f); background: var(--paper, #ffffff); font-size: calc(13px * var(--text-scale, 1)); line-height: 1.6; }\n.ds-secondary-button:hover { background: var(--quiet-hover, #f1f1f4); border-color: var(--selection-line, #b3b3bd); }\n.ds-secondary-button:disabled { opacity: .65; }\n.ds-secondary-button svg { width: 16px; height: 16px; }\n.ds-chat-composer { flex-shrink: 0; border: 1px solid var(--field-line, #d2d2d8); border-radius: 12px; padding: 11px 14px 10px; background: var(--canvas, #f5f5f7); }\n.ds-chat-composer:focus-within { border-color: var(--green, #0066cc); }\n.ds-chat-composer textarea { display: block; width: 100%; height: 60px; min-height: 50px; max-height: 120px; padding: 2px 0; border: 0; background: transparent; color: var(--ink, #1d1d1f); font-size: calc(14px * var(--text-scale, 1)); }\n.ds-chat-composer textarea:focus-visible { outline: none; }\n.ds-composer-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-top: 7px; }\n.ds-composer-actions .ds-text-button { font-size: calc(12px * var(--text-scale, 1)); }\n.ds-composer-hint { margin-left: auto; color: var(--muted, #626267); font-size: calc(12px * var(--text-scale, 1)); }\n.ds-composer-actions .ds-primary-button, .ds-composer-actions .ds-secondary-button { min-width: 64px; white-space: nowrap; }\n.ds-task-context { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid var(--line, #e4e4e8); color: var(--green, #0066cc); font-size: calc(12px * var(--text-scale, 1)); }\n.ds-task-context span { flex: 1; min-width: 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }\n.ds-task-context button { flex-shrink: 0; font-size: calc(12px * var(--text-scale, 1)); }"
+    },
+    {
+      "name": "AI 显式配置表单",
+      "kind": "input",
+      "refersTo": "ai-profile-form",
+      "description": "真实预设、协议、模型、地址和密钥字段；保存与主动测试区分。片段没有网络或运行时事件。",
+      "html": "<div class=\"ds-preview\"><form id=\"ds-ai-profile-form\" class=\"ds-ai-profile-form\"><div class=\"ds-ai-form-grid\"><label class=\"ds-extension-field\">服务商预设<select id=\"ds-ai-preset\"><option value=\"custom\">自定义服务</option><option value=\"openai\">OpenAI</option><option value=\"deepseek\">DeepSeek</option><option value=\"qwen\">通义千问</option><option value=\"anthropic\">Anthropic / Claude</option><option value=\"gemini\">Google / Gemini</option><option value=\"local\">本地兼容服务</option></select></label><label class=\"ds-extension-field\">连接名称<input id=\"ds-ai-name\" maxlength=\"80\" placeholder=\"例如：日常学习助手\" required></label><label class=\"ds-extension-field\">接口协议<select id=\"ds-ai-provider\"><option value=\"openai\">OpenAI 兼容 Chat Completions</option><option value=\"anthropic\">Anthropic Messages</option><option value=\"gemini\">Gemini GenerateContent</option></select></label><label class=\"ds-extension-field\">模型 ID<input id=\"ds-ai-model\" list=\"ai-model-options\" maxlength=\"200\" placeholder=\"可先保存连接，再读取模型列表\"><datalist id=\"ds-ai-model-options\"></datalist></label><label class=\"ds-extension-field ds-ai-wide\">服务地址<input id=\"ds-ai-base-url\" type=\"url\" placeholder=\"https://api.example.com/v1\" required></label><label class=\"ds-extension-field ds-ai-wide\">API Key<input id=\"ds-ai-key\" type=\"password\" autocomplete=\"new-password\" placeholder=\"保存后只显示是否已配置，不回显密钥\"><span id=\"ds-ai-key-note\" class=\"ds-control-note\">密钥只交给本机主进程，用于你明确发起的请求。</span></label></div><div class=\"ds-ai-key-actions\"><label class=\"ds-inline-check\"><input type=\"checkbox\" id=\"ds-ai-clear-key\">清空此连接的已存密钥</label></div><div class=\"ds-inline-actions ds-ai-actions\"><button type=\"submit\" id=\"ds-ai-profile-save\" class=\"ds-primary-button\">保存并使用此连接</button><button type=\"button\" id=\"ds-ai-test\" class=\"ds-secondary-button\" disabled>测试已保存连接</button><button type=\"button\" id=\"ds-ai-models\" class=\"ds-text-button\" disabled>读取模型列表</button></div><p id=\"ds-ai-config-status\" class=\"ds-extension-status\" role=\"status\" aria-live=\"polite\">尚未保存连接</p><p id=\"ds-ai-config-error\" class=\"ds-inline-error\" role=\"alert\" hidden></p></form></div>",
+      "css": ".ds-preview { font-family: var(--app-font, \"Microsoft YaHei UI\", \"Microsoft YaHei\", \"Segoe UI\", sans-serif); font-size: calc(14px * var(--text-scale, 1)); line-height: 1.6; color: var(--ink, #1d1d1f); } .ds-preview button, .ds-preview input, .ds-preview select, .ds-preview textarea { font: inherit; } .ds-preview button { cursor: pointer; transition: color 140ms ease-out, background-color 140ms ease-out, border-color 140ms ease-out; } .ds-preview button:disabled { cursor: default; } .ds-preview button:focus-visible, .ds-preview input:focus-visible, .ds-preview textarea:focus-visible, .ds-preview select:focus-visible { outline: 2px solid var(--primary, #0066cc); outline-offset: 3px; } .ds-preview input::placeholder, .ds-preview textarea::placeholder { color: var(--muted, #626267); } .ds-preview button svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; } @media (prefers-reduced-motion: reduce) { .ds-preview button { transition: none; } }\n.ds-text-button { display: inline-flex; align-items: center; justify-content: center; gap: 5px; min-height: 36px; padding: 4px 5px; border: 0; border-radius: 6px; background: transparent; color: var(--green, #0066cc); font-size: calc(12px * var(--text-scale, 1)); }\n.ds-text-button:hover { background: var(--selected, #e4effc); }\n.ds-text-button:disabled { opacity: .6; }\n.ds-text-button svg { width: 16px; height: 16px; }\n.ds-primary-button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 40px; padding: 8px 12px; border: 0; border-radius: 8px; color: var(--on-primary, #ffffff); background: var(--green, #0066cc); font-size: calc(14px * var(--text-scale, 1)); font-weight: 500; white-space: nowrap; }\n.ds-primary-button:hover { background: var(--green-hover, #005bb7); }\n.ds-primary-button:disabled { opacity: .65; }\n.ds-primary-button svg { width: 15px; height: 15px; stroke-width: 1.7; }\n.ds-inline-error { color: var(--error, #b53c43); font-size: calc(12px * var(--text-scale, 1)); line-height: 1.7; margin-top: 8px; overflow-wrap: anywhere; }\n.ds-primary-button { color: var(--on-primary, #ffffff); }\n.ds-primary-button:disabled { background: var(--disabled, #96969f); }\n.ds-inline-error { color: var(--error, #b53c43); }\n.ds-secondary-button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 40px; padding: 7px 12px; border: 1px solid var(--field-line, #d2d2d8); border-radius: 8px; color: var(--ink, #1d1d1f); background: var(--paper, #ffffff); font-size: calc(13px * var(--text-scale, 1)); line-height: 1.6; }\n.ds-secondary-button:hover { background: var(--quiet-hover, #f1f1f4); border-color: var(--selection-line, #b3b3bd); }\n.ds-secondary-button:disabled { opacity: .65; }\n.ds-secondary-button svg { width: 16px; height: 16px; }\n.ds-control-note { color: var(--muted, #626267); font-size: calc(12px * var(--text-scale, 1)); line-height: 1.7; margin-top: 8px; overflow-wrap: anywhere; }\n.ds-control-note[data-fallback=\"true\"] { color: var(--error, #b53c43); }\n.ds-extension-status { color: var(--green, #0066cc); font-size: calc(12px * var(--text-scale, 1)); line-height: 1.7; overflow-wrap: anywhere; }\n.ds-inline-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; min-width: 0; }\n.ds-inline-actions button { white-space: nowrap; }\n.ds-extension-field { display: flex; flex-direction: column; gap: 7px; min-width: 0; color: var(--ink, #1d1d1f); font-size: calc(14px * var(--text-scale, 1)); line-height: 1.55; }\n.ds-extension-field input, .ds-extension-field select, .ds-extension-field textarea { min-width: 0; width: 100%; min-height: 40px; padding: 8px 11px; border: 1px solid var(--field-line, #d2d2d8); border-radius: 8px; background: var(--paper, #ffffff); color: var(--ink, #1d1d1f); font: inherit; }\n.ds-extension-field input:disabled, .ds-extension-field select:disabled, .ds-extension-field textarea:disabled { opacity: .65; }\n.ds-inline-check { display: inline-flex; align-items: center; gap: 8px; color: var(--muted, #626267); font-size: calc(12px * var(--text-scale, 1)); line-height: 1.6; }\n.ds-inline-check input { accent-color: var(--green, #0066cc); width: 17px; height: 17px; margin: 0; flex-shrink: 0; }\n.ds-ai-form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 22px; }\n.ds-ai-wide { grid-column: 1 / -1; }\n.ds-ai-key-actions { margin: 12px 0 22px; }\n.ds-ai-actions { gap: 10px; margin-bottom: 14px; }\n.ds-ai-profile-form .ds-inline-error { margin-top: 8px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "安静学习空间",
+    "overview": "Apple桌面工具式的安静工作空间，参考Reminders、Notes和System Settings的结构、内容主次与对齐。Operate、code-led，任务与真实操作优先；小球的实时彩色动画是识别特征。侧栏、连续内容面和少量蓝色强调建立统一语言；不使用Apple标识、SF字体或伪macOS窗钮。",
+    "keyCharacteristics": [
+      "左侧160px导航（最小约144px），内容64px页头；任务面与约256px伙伴栏相邻，底部横排布置。任务标题25px、正文14px、辅助12px；真实任务只有现有title，不增加描述。进展可位于任务区底部；任务添加、完成、选中和已完成折叠可达，长文字完整换行。\n\n聊天正文独立滚动，模型选择和历史可达，输入固定；紧凑真实球/计时陪伴区保留个人专注。任务拆解先生成、编辑勾选，再确认入库。共学邀请条、双球/真实状态和共同计时、右侧房间聊天成为连续空间，消息内部滚动，输入固定可见。等待/离线/重连使用真实状态，无虚假成员。\n\n设置采用二级分类与连续偏好行，返回来源页和保存反馈固定可见；普通偏好自动保存，AI配置明确手动保存/测试。字体、主题跟随系统、大小、关闭到托盘或退出等真实功能全部保持。\n\n默认1040×780与最小880×680按实际Electron客户区验收（约1024×741与864×641）。大字号/导入宽字体使用内部纵向滚动和重排，不能通过缩小字体挤下主要操作。",
+      "控件圆角8px、必要分组12px、气泡16px。开放列表与细分隔线优先；不堆叠巨型圆角卡片，不把次要说明铺满内容区。蓝色用于主要操作、焦点与选中，状态同时有文字。主要按钮前景与表面分离，深浅错误/提示均可读，键盘focus-visible清楚可见。",
+      "保持单个#main-ball，在书桌与聊天间移动。角色连续呼吸、眨眼、形变、五色渐变和近距鼠标眼神；点击弹跳、双击旋转彩带、拖动回弹与完成撒花沿用现有运行时，不改vendor。隐藏/离屏/静止停帧，轻柔减慢。球体自身米白/桃粉/薄荷/淡蓝/浅紫保持，不跟随UI蓝色替换。\n\n透明桌宠root/body不着色，气泡/操作条更新中性表面与软阴影。hover/键盘揭示门禁、默认隐藏、延迟淡出、两行正文与独立尾巴保持；70%–150%缩放整组，无裁切。普通鼠标点击的焦点不能让提示常驻。"
+    ],
+    "rules": [
+      {
+        "name": "状态和数据",
+        "body": "不增加业务功能、统计字段或设置，不改存储schema/网络协议。ID、testid、form与脚本顺序保持。个人记录、未知字段、字体文件与加密AI/房间数据不重置，示例内容仅在独立预览。原生背景若变更，只同步新主题颜色常量。",
+        "section": "elevation"
+      },
+      {
+        "name": "验证与交付",
+        "body": "实际Electron检查任务/计时/设置/AI/共学，默认/最小、浅深、大字体/导入字体截图。动画采样连续帧，hover/键盘/70%–150%实测；两客户端验房间计时、消息、重连与奖励去重。独立视觉收尾后打包，源/包逐项哈希与许可审计。真实厂商API与公网连接需要外部环境，不能用本地fixture替代。事实结果写docs/VALIDATION.md，未完成阶段不能称通过。",
+        "section": "elevation"
+      }
+    ],
+    "dos": [],
+    "donts": []
+  }
+}

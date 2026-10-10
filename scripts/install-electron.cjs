@@ -1,0 +1,30 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const crypto = require('node:crypto');
+const { spawnSync } = require('node:child_process');
+const root = path.resolve(__dirname, '..');
+const directory = path.join(root, 'node_modules/electron');
+const manifest = require(path.join(directory, 'package.json'));
+const binary = path.join(directory, 'dist/electron.exe');
+if (process.platform === 'win32' && fs.existsSync(binary)) process.exit(0);
+const normal = spawnSync(process.execPath, [path.join(directory, 'install.js')], { stdio: 'inherit', windowsHide: true });
+if (normal.status === 0) process.exit(0);
+if (process.platform !== 'win32') process.exit(normal.status || 1);
+if (!/^\d+\.\d+\.\d+$/.test(manifest.version) || !['x64', 'arm64', 'ia32'].includes(process.arch)) throw new Error('Unsupported Electron runtime identifier');
+const name = `electron-v${manifest.version}-win32-${process.arch}.zip`;
+const checksum = require(path.join(directory, 'checksums.json'))[name];
+if (typeof checksum !== 'string' || !/^[a-f\d]{64}$/i.test(checksum)) throw new Error('Electron archive has no upstream checksum');
+const downloads = path.join(root, 'artifacts/downloads'); fs.mkdirSync(downloads, { recursive: true });
+const archive = path.join(downloads, name);
+const quote = value => `'${value.replaceAll("'", "''")}'`;
+if (!fs.existsSync(archive) || crypto.createHash('sha256').update(fs.readFileSync(archive)).digest('hex') !== checksum) {
+  console.log('Using Windows download with the official Electron SHA-256 checksum.');
+  const download = spawnSync('powershell.exe', ['-NoProfile', '-NonInteractive', '-Command', `$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue'; Invoke-WebRequest -Uri ${quote(`https://github.com/electron/electron/releases/download/v${manifest.version}/${name}`)} -OutFile ${quote(archive)} -UseBasicParsing`], { stdio: 'inherit', windowsHide: true });
+  if (download.status !== 0) process.exit(download.status || 1);
+}
+if (crypto.createHash('sha256').update(fs.readFileSync(archive)).digest('hex') !== checksum) throw new Error('Electron archive checksum mismatch');
+const distribution = path.join(directory, 'dist'); fs.mkdirSync(distribution, { recursive: true });
+const extract = spawnSync('powershell.exe', ['-NoProfile', '-NonInteractive', '-Command', `$ErrorActionPreference = 'Stop'; Add-Type -AssemblyName System.IO.Compression.FileSystem; $taskZip = [System.IO.Compression.ZipFile]::OpenRead(${quote(archive)}); $taskRoot = [System.IO.Path]::GetFullPath(${quote(distribution)}) + [System.IO.Path]::DirectorySeparatorChar; try { foreach ($taskEntry in $taskZip.Entries) { $taskOutput = [System.IO.Path]::GetFullPath([System.IO.Path]::Combine($taskRoot, $taskEntry.FullName)); if (-not $taskOutput.StartsWith($taskRoot, [System.StringComparison]::OrdinalIgnoreCase)) { throw 'Archive path exceeds the project runtime directory' }; if ($taskEntry.Name -eq '') { [System.IO.Directory]::CreateDirectory($taskOutput) | Out-Null } else { [System.IO.Directory]::CreateDirectory([System.IO.Path]::GetDirectoryName($taskOutput)) | Out-Null; [System.IO.Compression.ZipFileExtensions]::ExtractToFile($taskEntry, $taskOutput, $true) } } } finally { $taskZip.Dispose() }`], { stdio: 'inherit', windowsHide: true });
+if (extract.status !== 0) process.exit(extract.status || 1);
+fs.writeFileSync(path.join(directory, 'path.txt'), 'electron.exe');
+console.log(`Electron ${manifest.version} installed inside this project and checksum verified.`);
