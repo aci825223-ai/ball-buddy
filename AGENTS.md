@@ -31,6 +31,7 @@
 - 0.3.0布局合同见docs/THEME-REDESIGN-CONTRACT.md。主球保持单个实例，可在聊天用紧凑陪伴区；切页hidden停帧，既有ID/IPC/form与脚本顺序保留。默认/最小窗口、浅深、大文字/导入字体和两客户端以真实Electron验收；几何断言按新合同更新，任务/计时/设置/AI/共学行为门禁不能删减。改版前0.2.0存档不可修改；不覆盖旧包或个人记录。
 - 2026-10-11用户明确要求总结、绑定本人GitHub并直接公开发布源码，已授权为本项目初始化Git、创建本人名下公开仓库、提交与正常push。认证只能使用用户GitHub登录流程/既有Git凭据，不在代码、日志或提交中保存密钥。原创代码拟MIT，上游EmotionBall仍按其原社区许可/NOTICE，不能宣称角色商用或全仓统一MIT。
 - .github/仅放issue模板与PR模板，本轮不创建或修改CI/CD。docs/images/仅放已核对的隔离验收截图/GIF用于公开README，使用lowercase-hyphen名称；不复制个人窗口、私聊、凭据、字体、artifact数据或恢复ZIP。docs/PROJECT_SUMMARY.md保存长期项目交接总结。
+- .github/目录规则写入AGENTS.md，不使用README.md，以免GitHub优先选择模板目录说明而遮住根项目README。
 - 公开Git跟踪明确的源码、测试、工具、规则/设计/文档和原始第三方许可。排除node_modules、dist、artifacts、server/data、环境文件、个人数据、日志和本机审查截图。发布工具只能放artifacts/github-publish/，其README先说明工具/报告职责，不自动清理。正式提交前跑边界/秘密/大文件/许可检查。
 - 原创授权范围见根LICENSE，server/LICENSE保留独立服务许可；新生成便携包需带根LICENSE/NOTICE/第三方说明及完整vendor许可，原始正式包与存档不覆盖。维护者历史验收/个人升级工具仅供显式运行，公开文档须注明所需本机历史材料。
 
