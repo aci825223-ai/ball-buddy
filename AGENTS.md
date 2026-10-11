@@ -34,6 +34,7 @@
 - .github/目录规则写入AGENTS.md，不使用README.md，以免GitHub优先选择模板目录说明而遮住根项目README。
 - 公开Git跟踪明确的源码、测试、工具、规则/设计/文档和原始第三方许可。排除node_modules、dist、artifacts、server/data、环境文件、个人数据、日志和本机审查截图。发布工具只能放artifacts/github-publish/，其README先说明工具/报告职责，不自动清理。正式提交前跑边界/秘密/大文件/许可检查。
 - 原创授权范围见根LICENSE，server/LICENSE保留独立服务许可；新生成便携包需带根LICENSE/NOTICE/第三方说明及完整vendor许可，原始正式包与存档不覆盖。维护者历史验收/个人升级工具仅供显式运行，公开文档须注明所需本机历史材料。
+- 2026-10-11用户明确要求将最新版本上传GitHub Releases，已授权创建版本标签与公开Release、上传完整Windows便携ZIP和SHA-256校验文件、更新下载入口并正常push。Release先草稿上传核对后公开，固定到明确源码提交；不得覆盖已有同版本标签或资产，不把个人数据/凭据带入包，不伪称已有安装器或代码签名。
 
 ## 验证命令
 - npm test：核心状态、持久化和 IPC 输入验证。

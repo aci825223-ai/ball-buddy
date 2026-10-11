@@ -4,6 +4,8 @@
 
 当前版本 **0.3.0**。采用侧栏、连续内容面和浅色 / 深色 / 跟随系统主题。基础任务、计时和桌宠离线可用，无应用账号、遥测或内置订阅。
 
+**Windows 下载：[最新便携版](https://github.com/aci825223-ai/ball-buddy/releases/latest)。**下载 `BallBuddy-0.3.0-windows-x64.zip`，解压完整文件夹后双击 `BallBuddy.exe`；桌面应用不需要另装 Node.js。请保留其他运行时文件，不要只取出 EXE。当前提供便携版，尚无安装器或代码签名；独立共学服务仍需 Node.js。
+
 > **角色与动画署名：**本项目使用 [sam70361](https://github.com/sam70361) 的 [EmotionBall](https://github.com/sam70361/emotion-ball)，固定来源为 [aora-bot](https://github.com/sam70361/aora-bot) 的提交 `e3b6148c818da4a8e1966f2bc89cdb3cee473b73`。原创应用代码采用 MIT；EmotionBall 保留 **非商业社区许可**，球形角色视觉禁止商业用途。整个仓库并非统一 MIT，详见 [许可与来源](#许可与来源)。
 
 ![浅色书桌：任务、专注计时与小球伙伴](docs/images/workspace-light.png)
